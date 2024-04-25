@@ -1,8 +1,10 @@
 # flight-management
 
 ## About
+Flight Management is an application for managing flights and passengers within an airline. It is a typical CRUD app.
 
 ## Run
+Project is configured to run in the IntelliJ IDEA IDE. The database is automatically created in Docker.
 
 ## Tests
 
