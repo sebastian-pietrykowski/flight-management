@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=flight-management'
+      - 'POSTGRES_PASSWORD=my-secret-password'
+      - 'POSTGRES_USER=admin'
+    ports:
+      - '5432:5432'

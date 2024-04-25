@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: flight-management
+    docker:
+      compose:
+        enabled: true
+        file: docker-compose.yaml
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        open-in-view: false
+    messages:
+        basename: messages
+        encoding: UTF-8
+server:
+    servlet:
+        context-path: /api
+seeders:
+    enabled: true
